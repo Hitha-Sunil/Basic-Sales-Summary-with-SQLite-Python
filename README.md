@@ -1,9 +1,10 @@
-🛒 Basic Sales Summary with SQLite & Python
-📌 Overview
+# Basic Sales Summary with SQLite & Python
+
+# Overview
 This project demonstrates how to connect Python with a SQLite database, run simple SQL queries, and generate a basic sales summary.
 The results are displayed both as a table and a bar chart using Pandas and Matplotlib.
 
-⚙ Tools Used
+# Tools Used
 Python (Anaconda / Jupyter Notebook)
 
 SQLite3 (built into Python)
@@ -11,22 +12,18 @@ SQLite3 (built into Python)
 Pandas (for data handling)
 
 Matplotlib (for visualization)
-📂 Dataset
+
+# Dataset
 A small SQLite database (sales_data.db) is created with a single table:
-
 sales
-
 id (Primary Key)
-
 product (Text)
-
 quantity (Integer)
-
 price (Real)
 
 Sample records include Laptop, Mobile, and Tablet sales.
 
-📊 Results
+# Results
 SQL Query Output (example):
 
 product	total_qty	revenue
@@ -38,12 +35,12 @@ Tablet	12	184000.0
 Visualization
 A bar chart is plotted to show Revenue by Product.
 
-🚀 How to Run
+# How to Run
 Clone this repository
 
 Open the Jupyter Notebook (.ipynb) or Python script (.py)
 
-Run cells to:
+# Run cells to:
 
 Create the SQLite database
 
@@ -53,7 +50,7 @@ Query and display results
 
 Plot revenue chart
 
-📌 Deliverables
+# Deliverables
 ✅ sales_data.db (SQLite database)
 
 ✅ Python script / Jupyter Notebook
